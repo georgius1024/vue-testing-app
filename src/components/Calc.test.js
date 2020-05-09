@@ -23,9 +23,4 @@ describe('Calc.vue', () => {
     button.trigger('click')
     expect(wrapper.vm.counter).toBe(randomCounter - 1)
   })
-  test('reset works', () => {
-    const button = wrapper.find('#reset')
-    button.trigger('click')
-    expect(wrapper.vm.counter).toBe(0)
-  })
 })
