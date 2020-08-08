@@ -34,7 +34,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .calc {
   display: flex;
@@ -61,6 +60,7 @@ button {
   width: 100px;
   height: 100px;
   border-radius: 50px;
+  text-transform: uppercase;
 }
 button:focus {
   outline: none;
