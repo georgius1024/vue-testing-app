@@ -7,9 +7,6 @@ describe('Calc.vue', () => {
     randomCounter = Math.floor(Math.random() * 10)
     wrapper.vm.counter = randomCounter
   })
-  test('It mounts without error', () => {
-    expect(wrapper.html()).toBeTruthy()
-  })
   test('It renders counter value', () => {
     expect(wrapper.html()).toContain(randomCounter)
   })
