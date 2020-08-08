@@ -61,6 +61,7 @@ button {
   width: 100px;
   height: 100px;
   border-radius: 50px;
+  text-transform: capitalize;
 }
 button:focus {
   outline: none;
