@@ -21,4 +21,10 @@ describe('Calc.vue', () => {
     cy.get('#decrement').click()
     cy.contains('#counter', '-1')
   })
+  it('Click on increment increases counter', () => {
+    cy.get('#increment').click()
+    cy.get('#reset').click()
+    cy.contains('#counter', '0')
+  })
+
 })
