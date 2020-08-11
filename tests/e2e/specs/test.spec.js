@@ -1,5 +1,3 @@
-// https://docs.cypress.io/api/introduction/api.html
-
 describe('Calc.vue', () => {
   beforeEach(() => {
     cy.visit('/')
